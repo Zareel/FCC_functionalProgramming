@@ -19,8 +19,8 @@ function add(bookList, bookName) {
 
 // Change code below this line
 function remove(bookList, bookName) {
-  let copyBookList = [...bookList];
-  var book_index = bookList.indexOf(bookName);
+  const copyBookList = [...bookList];
+  const book_index = bookList.indexOf(bookName);
   if (book_index >= 0) {
     copyBookList.splice(book_index, 1);
     return copyBookList;
